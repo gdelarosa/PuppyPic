@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		779CFA0221666EAA00E4710A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779CFA0121666EAA00E4710A /* AppDelegate.swift */; };
+		779CFA0421666EAA00E4710A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779CFA0321666EAA00E4710A /* ViewController.swift */; };
+		779CFA0721666EAA00E4710A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779CFA0521666EAA00E4710A /* Main.storyboard */; };
+		779CFA0921666EAB00E4710A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779CFA0821666EAB00E4710A /* Assets.xcassets */; };
+		779CFA0C21666EAB00E4710A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779CFA0A21666EAB00E4710A /* LaunchScreen.storyboard */; };
+		779CFA1721666FAD00E4710A /* PuppyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779CFA1621666FAD00E4710A /* PuppyCollectionViewCell.swift */; };
+		779CFA1B2166760D00E4710A /* Puppy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779CFA1A2166760D00E4710A /* Puppy.swift */; };
+		779CFA1D216678EC00E4710A /* RecipeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779CFA1C216678EC00E4710A /* RecipeRouter.swift */; };
+		8C586DEFB99C82B28FB3A43D /* Pods_PuppyPic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA05ADC448B8A9CF2ED8D065 /* Pods_PuppyPic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		779CF9FE21666EAA00E4710A /* PuppyPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuppyPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		779CFA0121666EAA00E4710A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		779CFA0321666EAA00E4710A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		779CFA0621666EAA00E4710A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		779CFA0821666EAB00E4710A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		779CFA0B21666EAB00E4710A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		779CFA0D21666EAB00E4710A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779CFA1621666FAD00E4710A /* PuppyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppyCollectionViewCell.swift; sourceTree = "<group>"; };
+		779CFA1A2166760D00E4710A /* Puppy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puppy.swift; sourceTree = "<group>"; };
+		779CFA1C216678EC00E4710A /* RecipeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRouter.swift; sourceTree = "<group>"; };
+		B01748C4E8C2118EA2DEE718 /* Pods-PuppyPic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuppyPic.release.xcconfig"; path = "Pods/Target Support Files/Pods-PuppyPic/Pods-PuppyPic.release.xcconfig"; sourceTree = "<group>"; };
+		EA05ADC448B8A9CF2ED8D065 /* Pods_PuppyPic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuppyPic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA99CC062E8488AE22EB8A8 /* Pods-PuppyPic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuppyPic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PuppyPic/Pods-PuppyPic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		779CF9FB21666EAA00E4710A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C586DEFB99C82B28FB3A43D /* Pods_PuppyPic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1986F09F7B527F4B267AF9F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBA99CC062E8488AE22EB8A8 /* Pods-PuppyPic.debug.xcconfig */,
+				B01748C4E8C2118EA2DEE718 /* Pods-PuppyPic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38B7A0F533AA155BB19EAB53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA05ADC448B8A9CF2ED8D065 /* Pods_PuppyPic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		779CF9F521666EAA00E4710A = {
+			isa = PBXGroup;
+			children = (
+				779CFA0021666EAA00E4710A /* PuppyPic */,
+				779CF9FF21666EAA00E4710A /* Products */,
+				1986F09F7B527F4B267AF9F1 /* Pods */,
+				38B7A0F533AA155BB19EAB53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		779CF9FF21666EAA00E4710A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				779CF9FE21666EAA00E4710A /* PuppyPic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		779CFA0021666EAA00E4710A /* PuppyPic */ = {
+			isa = PBXGroup;
+			children = (
+				779CFA0121666EAA00E4710A /* AppDelegate.swift */,
+				779CFA1521666F8F00E4710A /* Model */,
+				779CFA1421666F8800E4710A /* View */,
+				779CFA1321666F8100E4710A /* Controller */,
+				779CFA202166C0AE00E4710A /* Router */,
+				779CFA0521666EAA00E4710A /* Main.storyboard */,
+				779CFA0A21666EAB00E4710A /* LaunchScreen.storyboard */,
+				779CFA0821666EAB00E4710A /* Assets.xcassets */,
+				779CFA0D21666EAB00E4710A /* Info.plist */,
+			);
+			path = PuppyPic;
+			sourceTree = "<group>";
+		};
+		779CFA1321666F8100E4710A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				779CFA0321666EAA00E4710A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		779CFA1421666F8800E4710A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				779CFA1621666FAD00E4710A /* PuppyCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		779CFA1521666F8F00E4710A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				779CFA1A2166760D00E4710A /* Puppy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		779CFA202166C0AE00E4710A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				779CFA1C216678EC00E4710A /* RecipeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		779CF9FD21666EAA00E4710A /* PuppyPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779CFA1021666EAB00E4710A /* Build configuration list for PBXNativeTarget "PuppyPic" */;
+			buildPhases = (
+				6C209939246EF01B56242A7C /* [CP] Check Pods Manifest.lock */,
+				779CF9FA21666EAA00E4710A /* Sources */,
+				779CF9FB21666EAA00E4710A /* Frameworks */,
+				779CF9FC21666EAA00E4710A /* Resources */,
+				7C0C8FCFD069F5CF3EBEA5D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuppyPic;
+			productName = PuppyPic;
+			productReference = 779CF9FE21666EAA00E4710A /* PuppyPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		779CF9F621666EAA00E4710A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gina De La Rosa";
+				TargetAttributes = {
+					779CF9FD21666EAA00E4710A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 779CF9F921666EAA00E4710A /* Build configuration list for PBXProject "PuppyPic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 779CF9F521666EAA00E4710A;
+			productRefGroup = 779CF9FF21666EAA00E4710A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				779CF9FD21666EAA00E4710A /* PuppyPic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		779CF9FC21666EAA00E4710A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779CFA0C21666EAB00E4710A /* LaunchScreen.storyboard in Resources */,
+				779CFA0921666EAB00E4710A /* Assets.xcassets in Resources */,
+				779CFA0721666EAA00E4710A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C209939246EF01B56242A7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PuppyPic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C0C8FCFD069F5CF3EBEA5D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PuppyPic/Pods-PuppyPic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PuppyPic/Pods-PuppyPic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		779CF9FA21666EAA00E4710A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779CFA0421666EAA00E4710A /* ViewController.swift in Sources */,
+				779CFA1721666FAD00E4710A /* PuppyCollectionViewCell.swift in Sources */,
+				779CFA1B2166760D00E4710A /* Puppy.swift in Sources */,
+				779CFA0221666EAA00E4710A /* AppDelegate.swift in Sources */,
+				779CFA1D216678EC00E4710A /* RecipeRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		779CFA0521666EAA00E4710A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779CFA0621666EAA00E4710A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		779CFA0A21666EAB00E4710A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779CFA0B21666EAB00E4710A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		779CFA0E21666EAB00E4710A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		779CFA0F21666EAB00E4710A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		779CFA1121666EAB00E4710A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA99CC062E8488AE22EB8A8 /* Pods-PuppyPic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6GUQ7XNWR;
+				INFOPLIST_FILE = PuppyPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginadlr.PuppyPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		779CFA1221666EAB00E4710A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01748C4E8C2118EA2DEE718 /* Pods-PuppyPic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6GUQ7XNWR;
+				INFOPLIST_FILE = PuppyPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginadlr.PuppyPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		779CF9F921666EAA00E4710A /* Build configuration list for PBXProject "PuppyPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779CFA0E21666EAB00E4710A /* Debug */,
+				779CFA0F21666EAB00E4710A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779CFA1021666EAB00E4710A /* Build configuration list for PBXNativeTarget "PuppyPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779CFA1121666EAB00E4710A /* Debug */,
+				779CFA1221666EAB00E4710A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 779CF9F621666EAA00E4710A /* Project object */;
+}
